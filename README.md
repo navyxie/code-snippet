@@ -2,4 +2,4 @@
 
 ## js
 
-- [prototype,__proto__,constructor](./js/prototype_constructor.md)
+- [js原型链，constructor,prototype，__proto__之间的关系](./js/prototype_constructor.md)
