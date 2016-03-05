@@ -19,6 +19,11 @@ instanceB.constructor === instanceB.__proto__.constructor === instanceB.__proto_
 instanceB.constructor.prototype.fn2 = function(){return 'fn2'};//函数fn2是添加到构造函数a的原型对象prototype中
 ```
 
+未修正构造函数指向时的原型链：
+
+![
+未修正构造函数指向时的原型链](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxicaqSDqsmE7HFSc3K1wqVmVAXWs7muRhWbNMKBXvNyWNVysccB6StwAiclIEG13pca9eJEicGS4TWYQ/0?wx_fmt=jpeg)
+
 ## 修正 constructor 属性
 
 ```
@@ -41,6 +46,11 @@ instanceB.__proto__.__proto__.constructor === a;//b继承a
 instanceB.__proto__.__proto__.__proto__.constructor === Object;//原型链末端的constructor指向Object,因为__proto__是对象，所有对象都继承至Object
 instanceB.constructor.prototype.fn2 = function(){return 'fn2'};//函数fn2是添加到构造函数b的原型对象prototype中
 ```
+
+修正构造函数指向时的原型链：
+
+![
+修正构造函数指向时的原型链](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxicaqSDqsmE7HFSc3K1wqVmV2oSWeqibHJTZ9EKRp6y5KdMjwaJ8SFurIibQNpWIRNqoghnhCCCT2Nlw/0?wx_fmt=jpeg)
 
 总结：
 
