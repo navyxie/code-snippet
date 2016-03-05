@@ -21,8 +21,7 @@ instanceB.constructor.prototype.fn2 = function(){return 'fn2'};//函数fn2是添
 
 未修正构造函数指向时的原型链：
 
-![
-未修正构造函数指向时的原型链](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxicaqSDqsmE7HFSc3K1wqVmVAXWs7muRhWbNMKBXvNyWNVysccB6StwAiclIEG13pca9eJEicGS4TWYQ/0?wx_fmt=jpeg)
+![未修正构造函数指向时的原型链](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxicaqSDqsmE7HFSc3K1wqVmVAXWs7muRhWbNMKBXvNyWNVysccB6StwAiclIEG13pca9eJEicGS4TWYQ/0?wx_fmt=jpeg)
 
 ## 修正 constructor 属性
 
@@ -49,8 +48,7 @@ instanceB.constructor.prototype.fn2 = function(){return 'fn2'};//函数fn2是添
 
 修正构造函数指向时的原型链：
 
-![
-修正构造函数指向时的原型链](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxicaqSDqsmE7HFSc3K1wqVmV2oSWeqibHJTZ9EKRp6y5KdMjwaJ8SFurIibQNpWIRNqoghnhCCCT2Nlw/0?wx_fmt=jpeg)
+![修正构造函数指向时的原型链](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxicaqSDqsmE7HFSc3K1wqVmV2oSWeqibHJTZ9EKRp6y5KdMjwaJ8SFurIibQNpWIRNqoghnhCCCT2Nlw/0?wx_fmt=jpeg)
 
 总结：
 
