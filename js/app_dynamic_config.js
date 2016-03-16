@@ -1,0 +1,38 @@
+{
+    "style":{
+        "redBg":{
+            "background-color":"red"
+        },
+        "fontSize20":{
+            "font-size":"20px"
+        },
+        "colorBlue":{
+            "color":"blue"
+        }
+    },
+    "component":{
+        "loanPage":{
+            "analystKey": "资产页",
+            "PageTitle":"我的资产"
+        },
+        "loanPage.header":{
+            "analystKey": "资产页头部",
+            "style":["redBg"]
+        },
+        "loanPage.buyBtn":{
+            "style":["redBg","fontSize20"]
+        }
+    },
+    "behavior":{
+        "login":{
+            "loanPage.header":{
+                "style":["colorBlue"]
+            }
+        },
+        "tab":{
+            "loanPage.buyBtn":{
+                "style":["colorBlue","fontSize20"]
+            }
+        }
+    }
+}
